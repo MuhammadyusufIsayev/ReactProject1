@@ -1,0 +1,68 @@
+
+.rate-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    h1{
+        font-family: Poppins;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;        
+    }
+    p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        width: 750px;
+        margin-top: 8px;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        gap: 65px;
+        margin-top: 50px;
+        .card{
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 350px;
+            border: 1px solid #DEDEDE;
+            border-radius: 5px;
+            padding: 40px;
+            gap: 16px;
+            p{
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                width: 300px;
+            }
+            .stars{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            .profile{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: #02897A;                
+            }
+        }
+    }
+}

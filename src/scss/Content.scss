@@ -1,0 +1,74 @@
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 118px;
+    h1{
+        font-family: Poppins;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 51px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 32px;
+        .card{
+            width: 348px;
+            height: 359px;   
+            border-radius: 8px;
+            border: 1px solid #DEDEDE;
+            cursor: pointer;
+            transition: 0.5s;
+            .title{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 12px;
+                padding: 24px;
+                h2{
+                    font-family: Poppins;
+                    font-size: 23px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #22343D;
+                    transition: 0.5s;
+                }
+                p{
+                    font-family: Poppins;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #22343D;
+                    span{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .card:hover{
+            transform: scale(1.05);
+            h2{
+                color: #02897A;
+            }
+        }
+    }
+}

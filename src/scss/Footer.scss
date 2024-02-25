@@ -1,0 +1,49 @@
+
+.footer-wrapper{
+    margin-bottom: 50px;
+    background-color: #02897A;
+    width: 1400px;
+    height: 340px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    align-items: center;
+    padding: 50px;
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 60px;
+        h1{
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+            width: 500px; 
+        }
+        button{
+            width: 150px;
+            height: 50px;
+            padding: 13px, 35px, 7px, 33px;
+            border-radius: 8px ;
+            border: none;   
+            color: #02897A;   
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+             cursor: pointer;        
+        }
+    }
+    .right{
+        img{
+            margin-top: 30px;
+            width: 350px;
+        }
+    }
+}
